@@ -22,3 +22,10 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+To run...
+1. Install Docker CLI
+2. docker-compose build
+3. docker-compose up
+4. docker-compose run app rake db:create
+5. docker-compose run app rake db:migrate
